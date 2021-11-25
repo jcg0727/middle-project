@@ -36,22 +36,22 @@ public class MemberInsertServlet extends HttpServlet {
 		
 		// 받아온 데이터를 VO객체에 담기
 		MemberVO memvo = new MemberVO();
-		memvo.setMemberId(memberId);
-		memvo.setMemberPw(memberPw);
-		memvo.setCityCode(cityCode);
-		memvo.setMemberNm(memberNm);
-		memvo.setMemberBir(memberBir);
-		memvo.setMemberNm(memberNm);
-		memvo.setMemberBir(memberBir);
-		memvo.setMembmerMail(membmerMail);
-		memvo.setMemberHp(memberHp);
-		memvo.setMemberGen(memberGen);
-		memvo.setMemberImg1(memberImg1);
-		memvo.setMemberImg2(memberImg2);
-		memvo.setProfileIntro(profileIntro);
-		memvo.setMemberInsta(memberInsta);
-		memvo.setProfileMusic(profileMusic);
-		memvo.setMatchType(matchType);
+//		memvo.setMemberId(memberId);
+//		memvo.setMemberPw(memberPw);
+//		memvo.setCityCode(cityCode);
+//		memvo.setMemberNm(memberNm);
+//		memvo.setMemberBir(memberBir);
+//		memvo.setMemberNm(memberNm);
+//		memvo.setMemberBir(memberBir);
+//		memvo.setMembmerMail(membmerMail);
+//		memvo.setMemberHp(memberHp);
+//		memvo.setMemberGen(memberGen);
+//		memvo.setMemberImg1(memberImg1);
+//		memvo.setMemberImg2(memberImg2);
+//		memvo.setProfileIntro(profileIntro);
+//		memvo.setMemberInsta(memberInsta);
+//		memvo.setProfileMusic(profileMusic);
+//		memvo.setMatchType(matchType);
 		
 		IMemberService service = MemberServiceImpl.getInstance();
 		service.insertMember(memvo);  // DB에 insert하기

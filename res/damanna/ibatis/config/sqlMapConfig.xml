@@ -57,7 +57,7 @@
 <!-- 	  <sqlMap resource="damanna/ibatis/mapping/admin.xml"/> -->
 <!-- 	  <sqlMap resource="damanna/ibatis/mapping/cityBoard.xml"/> -->
 <!-- 	  <sqlMap resource="damanna/ibatis/mapping/cityBoardComment.xml"/> -->
-	  <sqlMap resource="damanna/ibatis/mapping/member.xml"/>
+<!-- 	  <sqlMap resource="damanna/ibatis/mapping/member.xml"/> -->
 	  <sqlMap resource="damanna/ibatis/mapping/noticeBoard.xml"/>
 	  <sqlMap resource="damanna/ibatis/mapping/ad.xml"/>
 	  <sqlMap resource="damanna/ibatis/mapping/payment.xml"/>
